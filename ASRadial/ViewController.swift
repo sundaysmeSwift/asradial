@@ -44,7 +44,7 @@ class ViewController: UIViewController{
         if let button = sender as? ASLineButton {
             let tframe = button.frame
             print("tframe: \(tframe.debugDescription)")
-            self.lineMenu.buttonsWillAnimateFromButton(sender: sender as AnyObject, frame: button.frame, view: self.view)
+            self.lineMenu.buttonsWillAnimatefrom(sender: sender, inToView: self.view)
         }
         
         

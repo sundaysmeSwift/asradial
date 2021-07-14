@@ -41,6 +41,7 @@
 		54AFBA9C1A5F39980077AD88 /* Add@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54AFBA991A5F39980077AD88 /* Add@3x.png */; };
 		C37B774A269DF78300028678 /* ASLineMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37B7749269DF78300028678 /* ASLineMenu.swift */; };
 		C37B774C269DFCE600028678 /* ASLineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37B774B269DFCE600028678 /* ASLineButton.swift */; };
+		D45792A3269E8B9500B2A031 /* ASLineBGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45792A2269E8B9500B2A031 /* ASLineBGView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +93,7 @@
 		54AFBA991A5F39980077AD88 /* Add@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add@3x.png"; sourceTree = "<group>"; };
 		C37B7749269DF78300028678 /* ASLineMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASLineMenu.swift; sourceTree = "<group>"; };
 		C37B774B269DFCE600028678 /* ASLineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASLineButton.swift; sourceTree = "<group>"; };
+		D45792A2269E8B9500B2A031 /* ASLineBGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASLineBGView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 		54AFBA2E1A59FB570077AD88 /* ASRadial */ = {
 			isa = PBXGroup;
 			children = (
+				D45792A2269E8B9500B2A031 /* ASLineBGView.swift */,
 				C37B774B269DFCE600028678 /* ASLineButton.swift */,
 				C37B7749269DF78300028678 /* ASLineMenu.swift */,
 				54AFBA531A5A01500077AD88 /* ASRadialMenu.swift */,
@@ -339,6 +342,7 @@
 			files = (
 				54AFBA521A59FB760077AD88 /* ASRadialButton.swift in Sources */,
 				C37B774C269DFCE600028678 /* ASLineButton.swift in Sources */,
+				D45792A3269E8B9500B2A031 /* ASLineBGView.swift in Sources */,
 				54AFBA341A59FB570077AD88 /* ViewController.swift in Sources */,
 				C37B774A269DF78300028678 /* ASLineMenu.swift in Sources */,
 				54AFBA321A59FB570077AD88 /* AppDelegate.swift in Sources */,
